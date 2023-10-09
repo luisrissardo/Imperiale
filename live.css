@@ -1,0 +1,115 @@
+/*font-family: 'Alumni Sans Pinstripe', sans-serif;
+font-family: 'Cormorant Garamond', serif;
+font-family: 'Grenze Gotisch', cursive;
+font-family: 'Imperial Script', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Quattrocento', serif;
+font-family: 'Space Mono', monospace;
+
+    All fonts available
+*/
+:root {
+  --primary-color: white;
+  --secundary-color: black;
+}
+
+.dark-mode {
+  --primary-color: black;
+  --secundary-color: white;
+}
+
+.icon-menu {
+  width: 1.5rem;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  color: var(--secundary-color);
+}
+
+body {
+  overflow-x: hidden;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  background-color: var(--primary-color);
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 4.5rem;
+  position: fixed;
+}
+
+.logotipo {
+  width: 3.5rem;
+  margin: 1em;
+}
+
+.menu-mobile.open h2 {
+  color: #8CE6FF;
+  font-weight: 900;
+  text-shadow: 1px 1px 1px black;
+}
+
+.menu-mobile.open {
+  height: 20rem;
+  align-items: start;
+  background-image: url(img/Red\ Bull\ 2017\ Formula\ 1\ Concept.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.menu-mobile.open h2 {
+  margin-top: 1.35rem;
+}
+
+.menu-mobile.open ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.menu-mobile.open ul li {
+  margin-top: 1rem;
+}
+
+.menu-mobile.open ul li a {
+  color: #ffb166;
+  text-shadow: -1px 1px 1px black;
+  text-decoration: none;
+}
+
+.menu-mobile {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(60, 60, 60);
+  align-items: center;
+  width: 100vw;
+  height: 100%;
+  transition: 0.2s;
+}
+
+.menu-mobile.open .mobile-icons-menu {
+  display: flex;
+  flex-direction: column;
+  transform: translate(-12rem, 5rem);
+  height: 1rem;
+}
+
+.mobile-icons-menu {
+  display: none;
+  transition: 2s;
+  height: 0%;
+}
+
+.menu-mobile h2 {
+  font-family: "Alumni Sans Pinstripe", sans-serif;
+  color: #8CE6FF;
+  width: 50%;
+}/*# sourceMappingURL=live.css.map */
